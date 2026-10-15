@@ -72,5 +72,3 @@ st.subheader("Model Information")
 
 st.write("Dataset Rows:", len(df))
 
-r2 = r2_score(y_test, model.predict(X_test))
-st.write("R² Score:", round(r2, 4))
